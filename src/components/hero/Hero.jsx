@@ -10,17 +10,16 @@ const Hero = () => {
         <section className="hero">
         <div className="container">
             <div className="hero-text">
-                <p><span>Kshitij </span>
-                    is a Full-Stack Blockchain Developer From India.</p>
+                <p><span>Nitin Srivastva </span>
+                    is a Blockchain Developer From India.</p>
                 <h1>I develop decentralised apps in web3 space.</h1>
-                <h3>Add Your Description</h3>
-                {/*  =========popup bootstrap==========  */}
+                <h3>And also have a good hold on DataStructure and Algorithms</h3>
 
                 <Modal size='md' isOpen={modal} toggle={() => setModal(!modal)}>
                     <ModalBody>
                             <Row className="text-align">
                                 <label htmlFor="" toggle={() => setModal(!modal)}>
-                                    Mail Id - Kshitij123@gmail.com
+                                    Mail Id - nitinsrivastava2all@gmail.com
                                 </label>
 
                             </Row>
